@@ -26,6 +26,8 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE,
 ```
 
 ```{r packages-data, include=FALSE}
+devtools::install_github("r-for-educators/flair")
+
 library(tidyverse)
 library(flair)
 library(broom)
