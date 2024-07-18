@@ -24,4 +24,3 @@ vec_slides <- list.files(path=folder_here,
 
 # Correr archivos .Rmd en loop -------------------------------------------------
 for(rmd in vec_slides){rmarkdown::render(rmd)}
-
