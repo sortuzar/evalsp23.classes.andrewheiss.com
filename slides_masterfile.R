@@ -10,7 +10,9 @@ pacman::p_load(
   rprojroot,
   rmarkdown,
   xaringan,
-  xaringanExtra)
+  xaringanExtra,
+  devtools
+  )
 
 # Fijar directorio -------------------------------------------------------------
 folder_project <- rprojroot::find_rstudio_root_file()
